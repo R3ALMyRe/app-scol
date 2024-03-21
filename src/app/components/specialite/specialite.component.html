@@ -1,0 +1,14 @@
+<table class="table mt-5">
+    <thead>
+    <tr>
+      <th scope="col">libelle</th>
+      <th scope="col">id specialité</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let spec of specialite">
+            <td>{{ spec._libelle }}</td>
+            <td>{{ spec._idSpec }}</td>
+          </tr>
+        </tbody>
+  </table>

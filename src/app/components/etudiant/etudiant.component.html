@@ -1,0 +1,31 @@
+<div class="m-auto text-center">
+<img src="../../../assets/img/etudiant.jpg" alt="etudiant" class="mt-5  w-25">
+</div>
+<table class="table mt-5">
+    <thead>
+    <tr>
+      <th scope="col">Nom</th>
+      <th scope="col">Prénom</th>
+      <th scope="col">Rue</th>
+      <th scope="col">Code Postal</th>
+      <th scope="col">Ville</th>
+      <th scope="col">Courriel</th>
+      <th scope="col">Genre</th>
+      <th scope="col">Âge</th>
+      <th scope="col">ID Candidat</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let etudiant of etudiants">
+            <td>{{ etudiant._nom }}</td>
+            <td>{{ etudiant._prenom }}</td>
+            <td>{{ etudiant._rue }}</td>
+            <td>{{ etudiant._cp }}</td>
+            <td>{{ etudiant._ville }}</td>
+            <td>{{ etudiant._courriel }}</td>
+            <td>{{ etudiant._genre }}</td>
+            <td>{{ etudiant._age }}</td>
+            <td>{{ etudiant._idCand }}</td>
+          </tr>
+        </tbody>
+  </table>
