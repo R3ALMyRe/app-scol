@@ -10,6 +10,7 @@ import { EtudiantComponent } from './components/etudiant/etudiant.component';
 import { SpecialiteComponent } from './components/specialite/specialite.component';
 import { EtudiantParisComponent } from './components/etudiant-paris/etudiant-paris.component';
 import { EtudiantHorsParisComponent } from './components/etudiant-hors-paris/etudiant-hors-paris.component';
+import { FormsModule } from '@angular/forms';
 import { FormSpecialiteComponent } from './forms/form-specialite/form-specialite.component';
 import { FormEtudiantComponent } from './forms/form-etudiant/form-etudiant.component';
 
@@ -28,7 +29,9 @@ import { FormEtudiantComponent } from './forms/form-etudiant/form-etudiant.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
