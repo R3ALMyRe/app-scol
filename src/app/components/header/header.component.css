@@ -30,4 +30,15 @@ body {
   li a:hover {
     background-color: #111;
   }
+
+  .container {
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
   

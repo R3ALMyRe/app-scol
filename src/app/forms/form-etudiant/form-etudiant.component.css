@@ -1,0 +1,41 @@
+/* Style pour le formulaire */
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les éléments du formulaire */
+  }
+  
+  label {
+    font-weight: bold; /* Mettre en gras les libellés */
+  }
+  
+  input[type="text"] {
+    width: 100%; /* Prendre toute la largeur disponible */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    border-color: #007bff; /* Couleur de la bordure du bouton */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Couleur de fond du bouton au survol */
+    border-color: #0056b3; /* Couleur de la bordure du bouton au survol */
+  }
+  
+  /* Style pour le contenu des étudiants */
+  .margin {
+    margin-top: 20px; /* Espacement entre le formulaire et le contenu des étudiants */
+  }
+  
+  .container {
+    background-color: #f8f9fa; /* Couleur de fond des conteneurs */
+    padding: 10px; /* Espacement interne des conteneurs */
+    margin-bottom: 10px; /* Espacement entre les conteneurs */
+    border-radius: 5px; /* Coins arrondis des conteneurs */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  }
+  
+  .container span {
+    display: block; /* Afficher chaque ligne sur une nouvelle ligne */
+    margin-bottom: 5px; /* Espacement entre les lignes */
+  }
+  

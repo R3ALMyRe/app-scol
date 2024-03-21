@@ -1,1 +1,21 @@
-<p>form-etudiant works!</p>
+<form (submit)="onFormSubmit($event)">
+    <div class="form-group">
+      <label for="search">Recherche:</label>
+      <input [(ngModel)]="RechercheValeur" name="RechercheValeur" type="text" class="form-control" id="search"
+        placeholder="Entrez le nom de l'étudiant">
+    </div>
+    <button type="submit" class="btn btn-primary">Rechercher</button>
+  </form>
+  <div class="margin">
+    <div *ngFor="let etudiant of filteredEtudiants" class="container">
+      <span>Nom: {{ etudiant._nom }}</span>
+      <span>Prénom: {{ etudiant._prenom }}</span>
+      <span>Rue: {{ etudiant._rue }}</span>
+      <span>Code postal: {{ etudiant._cp }}</span>
+      <span>Ville: {{ etudiant._ville }}</span>
+      <span>Courriel: {{ etudiant._courriel }}</span>
+      <span>Genre: {{ etudiant._genre }}</span>
+      <span>Age: {{ etudiant._age }}</span>
+      <span>IdCand: {{ etudiant._idCand }}</span>
+    </div>
+  </div>
